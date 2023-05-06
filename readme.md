@@ -22,3 +22,6 @@ Ejemplos:
 La página debe tener campos para la inserción del texto que se desea encriptar o desencriptar, y el usuario debe poder seleccionar entre ambas opciones. El resultado debe ser mostrado en pantalla.
 
 Además, incluiye una funcionalidad extra que consistirá en un botón para copiar el texto encriptado o desencriptado a la sección de transferencia. Esto permitirá que los usuarios puedan compartir fácilmente los mensajes encriptados o desencriptados con otras personas.
+
+Este proyecto se desarrolla con HTML, Javascript y CSS, ademas he decidido añadir canvas. Todo esto enseñado en los cursos del programa Principiante en Programación G5 - ONE, de Oracle + Alura Latam.
+
