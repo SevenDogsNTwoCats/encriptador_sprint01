@@ -200,7 +200,7 @@ footer{
 
 #textFooter{
     all: unset;
-    width: 100%;
+    width: 100vw;
     text-align: right;
     padding-top: 40px;
     font-size: 30px;
