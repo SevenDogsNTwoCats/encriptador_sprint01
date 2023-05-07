@@ -25,11 +25,7 @@ const changeEffect = event => {
     let interval  = setInterval(() =>{
         change.innerText = document.getElementById('change').innerText.split('')
         .map((letter, index) => {
-            if(index < iteration){
-                return change.dataset.value[index];
-            }
-            return letters[Math.floor(Math.random()*36)]
-        }).join('');
+            return letters[Math.floor(Math.random()*36)]).join('');
 
     }, 200)
 }
