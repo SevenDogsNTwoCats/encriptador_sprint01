@@ -26,7 +26,7 @@ const changeEffect = event => {
         change.innerText = document.getElementById('change').innerText.split('')
         .map((letter, index) => {
             if(index < iteration){
-                return event.target.dataset.value[index];
+                return change.dataset.value[index];
             }
             return letters[Math.floor(Math.random()*36)]
         }).join('');
