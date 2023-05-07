@@ -187,6 +187,7 @@ a:hover span {
 
 footer{
     color: #fff;
+    width: 100vw;
     height: auto;
     background-color: #1f201f;
     margin: 0;
@@ -199,7 +200,7 @@ footer{
 
 #textFooter{
     all: unset;
-    width: 100vw;
+    width: 80vw;
     text-align: right;
     padding-top: 40px;
     font-size: 30px;
