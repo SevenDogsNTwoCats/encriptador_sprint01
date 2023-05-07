@@ -31,9 +31,6 @@ const changeEffect = event => {
             return letters[Math.floor(Math.random()*36)]
         }).join('');
 
-        if(iteration >= event.target.dataset.value.length ) clearInterval(interval)
-
-        iteration +=1;
     }, 200)
 }
 
